@@ -1,0 +1,169 @@
+
+
+/*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+/*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
+ 2) font-family: 'Poppins', sans-serif;
+ ----------------------------------------*****/
+
+
+/*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
+
+@import url(animate.min.css);
+@import url(normalize.css);
+@import url(meanmenu.css);
+@import url(owl.carousel.min.css);
+@import url(swiper.min.css);
+@import url(slick.css);
+@import url(jquery-ui.css);
+@import url(nice-select.css);
+
+/*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
+
+* {
+     box-sizing: border-box !important;
+}
+
+html {
+     scroll-behavior: smooth;
+}
+
+body {
+     color: #666666;
+     font-size: 14px;
+     font-family: 'poppins', sans-serif;
+     line-height: 1.80857;
+     font-weight: normal;
+}
+
+
+
+
+
+
+/*--------------------------------------------------------------------- top banner area ---------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------- layout new css ---------------------------------------------------------------------*/
+
+/** three box **/
+.three_box {
+     background: #4ac9f0;
+     text-align: center;
+     padding: 0px 30px 30px 30px;
+}
+.yellow {
+     background: #fbe212 !important;
+}
+.padd_ri {
+     padding-right: 0;
+     padding-left: 7px;
+}
+.padding_l {
+     padding-left: 5px;
+     padding-right: 5px;
+}
+.padd_rile {
+     padding-right: 7px;
+     padding-left: 0;
+}
+.three_box span {
+     color: #fff;
+     background: #4ac9f0;
+     border-radius: 48px;
+     width: 70px;
+     height: 70px;
+     font-size: 25px;
+     display: inline-block;
+     padding-top: 12px;
+     margin-top: -25px;
+     text-align: center;
+}
+.three_box h3 {
+     color: #fff;
+     font-size: 30px;
+     line-height: 25px;
+     font-weight: 500;
+     padding: 30px 0 20px 0;
+}
+.three_box p {
+     font-size: 17px;
+     line-height: 35px;
+     color: #fff;
+}
+.section-header h3 {
+     font-size: 36px;
+     color: #413e66;
+     text-align: center;
+     font-weight: 700;
+     position: relative;
+     font-family: "Montserrat", sans-serif;
+ }
+/** end three box **/
+
+/** wellcome section **/
+.wellcome {
+     padding: 90px 0;
+}
+.wellcome .titlepage {
+     text-align: center;
+}
+.wellcome .titlepage h2 {
+     color: #151515;
+     float: left;
+     padding-right: 15px;
+     font-weight: bold;
+     border-right: #4ac9f0 solid 2px;
+}
+.wellcome .titlepage h2::after {
+     position: absolute;
+     content: "";
+     background: #4ac9f0;
+     width: 100px;
+     bottom: -10px;
+     left: 0;
+     height: 12px;
+}
+.wellcome .titlepage p {
+     color: #000;
+}
+.wellcome .wellcome-box figure {
+     margin: 0;
+}
+.wellcome .wellcome-box figure img {
+     width: 100%;
+}
+.wellcome .wellcome-box {
+     background-color: #230c0c;
+     padding: 20px;
+}
+.read_more {
+     font-size: 16px;
+     background-color: #041d2c;
+     color: #fff;
+     padding: 10px 0px;
+     width: 100%;
+     max-width: 190px;
+     border-radius: 15px;
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     margin: 0 auto;
+     margin-top: 50px;
+}
+.read_more:hover {
+     background: #4ac9f0;
+     color: #fff;
+}
+
+/** end wellcome section **/
+
+
+
+/** end Better **/
+

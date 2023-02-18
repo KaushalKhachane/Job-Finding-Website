@@ -1,0 +1,57 @@
+div{
+    background-color: rgb(235, 216, 138);
+   padding: 10px;
+   width: 300px;
+   height: 400px;
+   border-radius: 10px;
+}
+#logo{
+ 
+ width: 50px;
+ height: 30px;
+ 
+border-radius: 20px;
+
+}
+#name{
+    margin-left: 30px;
+    font-style:italic;
+    font-size: 30px;
+   color: rgb(41, 100, 188);
+}
+#add{
+    margin-left: 30px;
+    font-size: 15px;
+}
+#job{
+background-color: aliceblue;
+font-size: 15px;
+width: 280px;
+ height: 25px;
+ border-radius: 2px;
+ 
+}
+#qualify{
+    background-color: aliceblue;
+font-size: 15px;
+width: 280px;
+ height: 25px;
+margin-top: 10px;
+border-radius: 2px;
+}
+#exp{
+    background-color: aliceblue;
+font-size: 15px;
+width: 280px;
+ height: 25px;
+margin-top: 10px;
+border-radius: 2px;
+}
+#experience{
+    background-color: aliceblue;
+font-size: 15px;
+width: 280px;
+ height: 25px;
+margin-top: 10px;
+border-radius: 2px;
+}
