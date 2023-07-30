@@ -23,7 +23,6 @@ public class EmployeeLogin extends HttpServlet {
 	public void service(HttpServletRequest req, HttpServletResponse res) throws IOException {
 		
 		String decy=null;
-		System.out.println("Hello");
 
 		user = req.getParameter("user");
 		ps = req.getParameter("ps");
@@ -35,10 +34,13 @@ public class EmployeeLogin extends HttpServlet {
 		catch(Exception ex) {
 			ex.printStackTrace();
 		}
-		
+		System.out.println(user);
+		System.out.println(ps);
 		
 
 		try {
+			System.out.println("Welcome");
+			System.out.println(DbConnection.Connectiontodatabase());
 			java.sql.Connection connect = DbConnection.Connectiontodatabase();
 			String query = "SELECT * FROM student WHERE Phone = '" + user + "' and Password = '"+decy+"';";
 
@@ -55,7 +57,8 @@ public class EmployeeLogin extends HttpServlet {
 				res.sendRedirect("NotExist.html");
 			}
 		} catch (Exception e) {
-			e.printStackTrace();
+			System.out.println("Error"+ e.getMessage());
+//			e.printStackTrace();
 		}
 
 	}
